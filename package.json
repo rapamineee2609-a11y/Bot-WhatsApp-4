@@ -1,0 +1,24 @@
+{
+  "name": "bot-whatsapp",
+  "version": "1.0.0",
+  "description": "Bot WhatsApp 100 fitur",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "dependencies": {
+    "@hapi/boom": "^10.0.1",
+    "@whiskeysockets/baileys": "6.7.9",
+    "axios": "^1.7.7",
+    "cheerio": "^1.0.0",
+    "moment-timezone": "^0.5.45",
+    "pino": "^9.4.0",
+    "pino-pretty": "^11.2.2"
+  },
+  "keywords": ["whatsapp", "bot", "baileys"],
+  "author": "Kamu",
+  "license": "MIT"
+}
